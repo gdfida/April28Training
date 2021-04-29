@@ -8,6 +8,7 @@ class CartTest {
 
 	@Test
 	void test() {
+		System.out.println("JUnit training");
 		fail("Not yet implemented");
 	}
 
