@@ -15,7 +15,8 @@ class CarTests {
 	}
 	@Test
 	void CanComputeEconomyMetric() {
-		
+		float kmPerliter = Car.ComputeEconomy(502, 38);
+		assertEquals(13.210526f, kmPerliter);
 	}
 
 }
