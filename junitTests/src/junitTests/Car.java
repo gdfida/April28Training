@@ -1,7 +1,14 @@
 package junitTests;
 
 public class Car {
-
+	private int NumberOfSeats;
+	
+	public int getNumberOfSeats() {
+		return NumberOfSeats;
+	}
+	public void setNumberOfSeats(int numberOfSeats) {
+		NumberOfSeats = numberOfSeats;
+	}
 	public static float ComputeEconomy(short milesDriven, short gallonsConsumed) {
 		float milesDriven1 = (float)milesDriven;
 		float gallonsConsumed1 = (float)gallonsConsumed;
